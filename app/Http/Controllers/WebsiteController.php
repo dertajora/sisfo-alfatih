@@ -18,27 +18,28 @@ class WebsiteController extends Controller
         ini_set('memory_limit', '1024M');
 	}
 
-    public function landing_page(){
+    public function home(){
         return view('website.home');
     }
 
-    public function registration_page(){
-        return view('website.registration');
+    public function program(){
+        return view('website.program');
     }
 
-    public function login_guide(){
-        return view('website.login_guide');
+    public function news(){
+        return view('website.news');
     }
 
-    public function download_app_end_user(){
-        echo "URL Coming Soon";
+    public function teachers(){
+        return view('website.teachers');
+    }
+
+    public function about(){
+        return view('website.about');
     }
 
     public function login_page(){
         return view('website.login');
     }
-
-    
-
 	
 }

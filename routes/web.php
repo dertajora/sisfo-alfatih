@@ -11,10 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+Route::get('/', 'WebsiteController@home');
+Route::get('/home', 'WebsiteController@home');
+
+Route::get('/program', 'WebsiteController@program');
+Route::get('/news', 'WebsiteController@news');
+Route::get('/about', 'WebsiteController@about');
+Route::get('/staff', 'WebsiteController@teachers');
 
 Route::get('/home', 'DashboardController@home');
 Route::get('/login',  'WebsiteController@login_page');
