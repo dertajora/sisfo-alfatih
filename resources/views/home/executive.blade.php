@@ -1,5 +1,13 @@
 @extends('layout.dashboard')
 
+@section('script_custom')
+<script type="text/javascript">
+$('#executive_report').addClass('active');
+    $( document ).ready(function() {
+}); 
+</script>
+@endsection
+
 @section('title')
 Home Page
 @endsection
@@ -26,7 +34,7 @@ Home Page
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>54.000.000<sup style="font-size: 20px">%</sup></h3>
+              <h3>54.000.000</h3>
 
               <p>Pemasukan bulan ini</p>
             </div>
@@ -97,23 +105,6 @@ Home Page
                     <td>1</td>
                     <td>0</td>
                   </tr>
-                  <tr>
-                    <td><a href="#">II A</a></td>
-                    <td>13</td>
-                    <td>9</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>0</td>
-                  </tr>
-                  <tr>
-                    <td><a href="#">II B</a></td>
-                    <td>17</td>
-                    <td>16</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>0</td>
-                  </tr>
-                 
                   </tbody>
                 </table>
               </div>

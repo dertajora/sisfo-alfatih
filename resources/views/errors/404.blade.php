@@ -15,7 +15,7 @@
 
           </div>
         <div class="buttons-container">
-          <a class="border-button" href="{{URL::to('/')}}">Go To Homepage</a>
+          <a class="border-button" href="{{URL::to('/dashboard')}}">Go To Homepage</a>
           <a class="border-button" onclick="goBack()">Go To Previous Page</a>
         </div>
     </div>

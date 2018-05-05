@@ -34,10 +34,13 @@ Route::get('/dashboard/users/edit/{id}',  'UserController@edit');
 Route::post('/dashboard/users/update',  'UserController@update');
 Route::get('/dashboard/users/delete/{id}',  'UserController@delete');
 
-Route::get('/executive',  'DashboardController@executive');
+Route::get('/dashboard/expense',  'ExpenseController@index');
+Route::get('/dashboard/income',  'IncomeController@index');
+
+Route::get('/logout', 'GeneralController@logout');
+
+Route::get('/dashboard/executive',  'DashboardController@executive');
 Route::get('/student',  'DashboardController@student');
-Route::get('/dashboard/expense',  'DashboardController@expense');
-Route::get('/dashboard/income',  'DashboardController@income');
 
 #Auth
 // alias is used to redirect user to login page when not logged in
