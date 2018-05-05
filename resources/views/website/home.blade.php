@@ -23,7 +23,7 @@
 					<div class="hero_slide_background" style="background-image:url({{ URL::asset('public/course')}}/images/slider_background.jpg)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Sekolah Karakter <br>Sekolah Dasar Al-Fatiih</h1>
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">SD Karakter Al-Fatiih</h1>
 						</div>
 					</div>
 				</div>

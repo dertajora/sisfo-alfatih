@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
 <title>public/course</title>
+<title>HappyDeliv - Empower Your Delivery Service</title>
+    
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="public/course Project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SD Al-Fatiih - Internalisasi Karakter Kepahlawanan dalam Akhlak Kepribadian Peserta Didik">
+<meta name="keywords" content="sekolah, sd karakter, sd it, sd islam, sd bintan, sekolah dasar,tanjungpandan">
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/bootstrap4/bootstrap.min.css">
 <link href="{{ URL::asset('public/course')}}/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.css">

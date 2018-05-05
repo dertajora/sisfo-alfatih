@@ -53,7 +53,7 @@
 									<div class="contact_info_icon">
 										<img src="{{ URL::asset('public/course')}}/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
-									Jl. Merpati Kp. Sidojadi km 13, RT 3 / RW 9<br>
+									Jl. Merpati Kp. Sidojadi km 13, RT 3/RW 9<br>
 									&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 									Kel. Batu IX, Komplek Ruko No 2
 								</li>
