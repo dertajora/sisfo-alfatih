@@ -11,7 +11,7 @@ swal("{{session('status')}}");
 @section('content')
 	<div class="limiter">
 		<div class="container-login100">
-			<div class="login100-more" style="background-image: url('{{ URL::asset('form')}}/images/books.jpeg');"></div>
+			<div class="login100-more" style="background-image: url('{{ URL::asset('public/form')}}/images/books.jpeg');"></div>
 
 			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
 				<form class="login100-form validate-form" method="POST" action="{{url('login')}}" >
@@ -19,9 +19,9 @@ swal("{{session('status')}}");
 						Login
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate="Phone Number is required">
+					<div class="wrap-input100 validate-input" data-validate="Email is required">
 						<span class="label-input100">Email </span>
-						<input class="input100" type="text" name="phone" placeholder="Masukkan email ...">
+						<input class="input100" type="text" name="email" placeholder="Masukkan email ...">
 						<span class="focus-input100"></span>
 					</div>
 
