@@ -18,7 +18,7 @@ Home Page
           </div>
         </div>
         <div class="box-body">
-          <p><h4>Welcome to New Alpha Version Information System of Al-Faatih School !</h4></p>
+          <p><h4>Selamat datang di Sistem Informasi SD Karakter Al-Fatiih versi Alpha !</h4></p>
           
           <br />
           <div class="row">

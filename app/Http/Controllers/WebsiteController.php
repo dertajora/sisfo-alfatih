@@ -38,8 +38,28 @@ class WebsiteController extends Controller
         return view('website.about');
     }
 
-    public function login_page(){
+    public function login_page(){ 
         return view('website.login');
+    }
+
+    public function login_handle(Request $request){
+        $user_found = User::where('email', $request->get('email'))->count();
+        if ($user_found == 0) 
+            return redirect('login')->with('status', 'Login failed. User not found!'); 
+
+        $user = User::where('email', $request->get('email'))->first();
+        $user_current_password = Crypt::decrypt($user->password);
+
+        if ($user_current_password != $request->get('password')) 
+            return redirect('login')->with('status', 'Login failed. Invalid password!'); 
+
+        // auth user
+        Auth::login($user);
+        $role = Roles::where('id', $user->role_id)->first();
+        session(['role_name' => $role->name]);
+        
+        // redirect to intended menu/url
+        return redirect()->intended('/dashboard');
     }
 	
 }

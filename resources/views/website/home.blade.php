@@ -51,14 +51,14 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-lg-2 hero_box_col">
-						{{-- <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+					<div class="col-lg-4 hero_box_col">
+						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
 							<img src="{{ URL::asset('public/course')}}/images/earth-globe.svg" class="svg" alt="">
 							<div class="hero_box_content">
-								<h2 class="hero_box_title">Online public/courses</h2>
-								<a href="public/courses.html" class="hero_box_link">view more</a>
+								<h2 class="hero_box_title">Online Monitoring</h2>
+								<a href="{{url('/login')}}" class="hero_box_link">masuk</a>
 							</div>
-						</div> --}}
+						</div>
 					</div>
 
 					<div class="col-lg-4 hero_box_col">
