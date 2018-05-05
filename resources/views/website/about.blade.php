@@ -1,8 +1,8 @@
 @extends('layout.website')
 
 @section('style_specific')
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/contact_styles.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/contact_responsive.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/contact_responsive.css">
 @endsection
 
 @section('content')
@@ -11,7 +11,7 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url({{ URL::asset('course')}}/images/contact_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url({{ URL::asset('public/course')}}/images/contact_background.jpg)"></div>
 		</div>
 		<div class="home_content">
 			<h1>Tentang</h1>
@@ -51,7 +51,7 @@
 							<ul>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="{{ URL::asset('course')}}/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									Jl. Merpati Kp. Sidojadi km 13, RT 3 / RW 9<br>
 									&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -59,13 +59,13 @@
 								</li>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="{{ URL::asset('course')}}/images/phone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/phone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									0812-2812-5872
 								</li>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="{{ URL::asset('course')}}/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>yayasanmuhammadalfatih@gmail.com
 								</li>
 							</ul>
@@ -94,6 +94,6 @@
 
 @section('script')
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-<script src="{{ URL::asset('course')}}/plugins/easing/easing.js"></script>
-<script src="{{ URL::asset('course')}}/js/contact_custom.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/easing/easing.js"></script>
+<script src="{{ URL::asset('public/course')}}/js/contact_custom.js"></script>
 @endsection

@@ -1,15 +1,15 @@
 @extends('layout.website')
 
 @section('style_specific')
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/news_styles.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/news_responsive.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/news_styles.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/news_responsive.css">
 @endsection
 
 @section('content')
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url({{ URL::asset('course')}}/images/news_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url({{ URL::asset('public/course')}}/images/news_background.jpg)"></div>
 		</div>
 		<div class="home_content">
 			<h1>Berita</h1>
@@ -30,7 +30,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="{{ URL::asset('course')}}/images/news_1.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="{{ URL::asset('public/course')}}/images/news_1.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -60,7 +60,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="{{ URL::asset('course')}}/images/news_2.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="{{ URL::asset('public/course')}}/images/news_2.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -71,7 +71,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="#">Our new courses just for you?</a>
+										<a href="#">Our new public/courses just for you?</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author"><a href="#">By Christian Smith</a></span>
@@ -90,7 +90,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="{{ URL::asset('course')}}/images/news_3.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="{{ URL::asset('public/course')}}/images/news_3.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -160,7 +160,7 @@
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="{{ URL::asset('course')}}/images/latest_1.jpg" alt="https://unsplash.com/@dsmacinnes">
+										<img src="{{ URL::asset('public/course')}}/images/latest_1.jpg" alt="https://unsplash.com/@dsmacinnes">
 									</div>
 									<div class="latest_post_title"><a href="#">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">
@@ -172,7 +172,7 @@
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="{{ URL::asset('course')}}/images/latest_2.jpg" alt="https://unsplash.com/@erothermel">
+										<img src="{{ URL::asset('public/course')}}/images/latest_2.jpg" alt="https://unsplash.com/@erothermel">
 									</div>
 									<div class="latest_post_title"><a href="#">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">
@@ -184,7 +184,7 @@
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="{{ URL::asset('course')}}/images/latest_3.jpg" alt="https://unsplash.com/@element5digital">
+										<img src="{{ URL::asset('public/course')}}/images/latest_3.jpg" alt="https://unsplash.com/@element5digital">
 									</div>
 									<div class="latest_post_title"><a href="#">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">
@@ -209,6 +209,6 @@
 
 @section('script')
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-<script src="{{ URL::asset('course')}}/plugins/easing/easing.js"></script>
-<script src="{{ URL::asset('course')}}/js/contact_custom.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/easing/easing.js"></script>
+<script src="{{ URL::asset('public/course')}}/js/contact_custom.js"></script>
 @endsection
