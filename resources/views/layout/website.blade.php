@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Course</title>
+<title>public/course</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Course Project">
+<meta name="description" content="public/course Project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/bootstrap4/bootstrap.min.css">
-<link href="{{ URL::asset('course')}}/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/bootstrap4/bootstrap.min.css">
+<link href="{{ URL::asset('public/course')}}/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/animate.css">
 
 @yield('style_specific')
 
@@ -26,8 +26,8 @@
 			<!-- Logo -->
 			<div class="logo_container">
 				<div class="logo">
-					<img src="{{ URL::asset('course')}}/images/logo.png" alt="">
-					<span>course</span>
+					<img src="{{ URL::asset('public/course')}}/images/logo.png" alt="">
+					<span>SD Al-Fatiih</span>
 				</div>
 			</div>
 
@@ -48,7 +48,7 @@
 		</div>
 		<a href="#">
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			{{-- <img src="{{ URL::asset('course')}}/images/phone-call.svg" alt=""> --}}
+			{{-- <img src="{{ URL::asset('public/course')}}/images/phone-call.svg" alt=""> --}}
 			<span>REGISTRASI</span>
 		</div></a>
 
@@ -142,7 +142,7 @@
 							<ul>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="{{ URL::asset('course')}}/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									Jl. Merpati Kp. Sidojadi km 13, RT 3 / RW 9<br>
 									&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -150,13 +150,13 @@
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="{{ URL::asset('course')}}/images/phone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/phone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									0812-2812-5872
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="{{ URL::asset('course')}}/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>yayasanmuhammadalfatih@gmail.com
 								</li>
 							</ul>
@@ -189,18 +189,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 </div>
 
-<script src="{{ URL::asset('course')}}/js/jquery-3.2.1.min.js"></script>
-<script src="{{ URL::asset('course')}}/styles/bootstrap4/popper.js"></script>
-<script src="{{ URL::asset('course')}}/styles/bootstrap4/bootstrap.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/greensock/TweenMax.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/greensock/TimelineMax.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/greensock/animation.gsap.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/easing/easing.js"></script>
-<script src="{{ URL::asset('course')}}/js/custom.js"></script>
+<script src="{{ URL::asset('public/course')}}/js/jquery-3.2.1.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/styles/bootstrap4/popper.js"></script>
+<script src="{{ URL::asset('public/course')}}/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/greensock/TweenMax.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/greensock/TimelineMax.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/greensock/animation.gsap.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/easing/easing.js"></script>
+<script src="{{ URL::asset('public/course')}}/js/custom.js"></script>
 
 @yield('script')
 </body>

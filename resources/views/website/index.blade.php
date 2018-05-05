@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Course</title>
+<title>public/course</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Course Project">
+<meta name="description" content="public/course Project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/bootstrap4/bootstrap.min.css">
-<link href="{{ URL::asset('course')}}/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/responsive.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/teachers_styles.css">
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('course')}}/styles/teachers_responsive.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/bootstrap4/bootstrap.min.css">
+<link href="{{ URL::asset('public/course')}}/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/teachers_styles.css">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('public/course')}}/styles/teachers_responsive.css">
 </head>
 <body>
 
@@ -27,8 +27,8 @@
 			<!-- Logo -->
 			<div class="logo_container">
 				<div class="logo">
-					<img src="{{ URL::asset('course')}}/images/logo.png" alt="">
-					<span>course</span>
+					<img src="{{ URL::asset('public/course')}}/images/logo.png" alt="">
+					<span>public/course</span>
 				</div>
 			</div>
 
@@ -49,7 +49,7 @@
 		</div>
 		<a href="registrasi">
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			{{-- <img src="{{ URL::asset('course')}}/images/phone-call.svg" alt=""> --}}
+			{{-- <img src="{{ URL::asset('public/course')}}/images/phone-call.svg" alt=""> --}}
 			<span>REGISTRASI</span>
 		</div></a>
 
@@ -106,7 +106,7 @@
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url({{ URL::asset('course')}}/images/slider_background.jpg)"></div>
+					<div class="hero_slide_background" style="background-image:url({{ URL::asset('public/course')}}/images/slider_background.jpg)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
 							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Sekolah Karakter <br>Sekolah Dasar Al-Fatiih</h1>
@@ -116,7 +116,7 @@
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url({{ URL::asset('course')}}/images/slider_background.jpg)"></div>
+					<div class="hero_slide_background" style="background-image:url({{ URL::asset('public/course')}}/images/slider_background.jpg)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
 							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Pendaftaran telah dibuka!</h1>
@@ -126,7 +126,7 @@
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url({{ URL::asset('course')}}/images/slider_background.jpg)"></div>
+					<div class="hero_slide_background" style="background-image:url({{ URL::asset('public/course')}}/images/slider_background.jpg)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
 							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span> today!</h1>
@@ -149,17 +149,17 @@
 
 					<div class="col-lg-2 hero_box_col">
 						{{-- <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-							<img src="{{ URL::asset('course')}}/images/earth-globe.svg" class="svg" alt="">
+							<img src="{{ URL::asset('public/course')}}/images/earth-globe.svg" class="svg" alt="">
 							<div class="hero_box_content">
-								<h2 class="hero_box_title">Online Courses</h2>
-								<a href="courses.html" class="hero_box_link">view more</a>
+								<h2 class="hero_box_title">Online public/courses</h2>
+								<a href="public/courses.html" class="hero_box_link">view more</a>
 							</div>
 						</div> --}}
 					</div>
 
 					<div class="col-lg-4 hero_box_col">
 						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
-							<img src="{{ URL::asset('course')}}/images/books.svg" class="svg" alt="">
+							<img src="{{ URL::asset('public/course')}}/images/books.svg" class="svg" alt="">
 							<div class="hero_box_content">
 								<h2 class="hero_box_title">Program Unggulan</h2>
 								<a href="teachers.html" class="hero_box_link">lihat detail</a>
@@ -169,7 +169,7 @@
 
 					<div class="col-lg-4 hero_box_col">
 						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
-							<img src="{{ URL::asset('course')}}/images/professor.svg" class="svg" alt="">
+							<img src="{{ URL::asset('public/course')}}/images/professor.svg" class="svg" alt="">
 							<div class="hero_box_content">
 								<h2 class="hero_box_title">Staff Pendidik</h2>
 								<a href="teachers.html" class="hero_box_link">lihat detail</a>
@@ -198,12 +198,12 @@
 
 			</div>
 
-			<div class="row course_boxes">
+			<div class="row public/course_boxes">
 				
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
+				<!-- Popular public/course Item -->
+				<div class="col-lg-4 public/course_box">
 					<div class="card">
-						<img class="card-img-top" src="{{ URL::asset('course')}}/images/course_3.jpg" alt="https://unsplash.com/@kellybrito">
+						<img class="card-img-top" src="{{ URL::asset('public/course')}}/images/public/course_3.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
 							<div class="card-title" style="color:black"><a>Pendidikan Karakter</a></div>
 							<div class="card-text">Kalimat tambahan</div>
@@ -213,10 +213,10 @@
 					</div>
 				</div>
 
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
+				<!-- Popular public/course Item -->
+				<div class="col-lg-4 public/course_box">
 					<div class="card">
-						<img class="card-img-top" src="{{ URL::asset('course')}}/images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
+						<img class="card-img-top" src="{{ URL::asset('public/course')}}/images/public/course_1.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
 							<div class="card-title" style="color:black"><a>Al-Quran</a></div>
 							<div class="card-text">Tahsin, Tahfidz & Ilmu Tajwid</div>
@@ -226,10 +226,10 @@
 					</div>
 				</div>
 
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
+				<!-- Popular public/course Item -->
+				<div class="col-lg-4 public/course_box">
 					<div class="card">
-						<img class="card-img-top" src="{{ URL::asset('course')}}/images/course_2.jpg" alt="https://unsplash.com/@kellybrito">
+						<img class="card-img-top" src="{{ URL::asset('public/course')}}/images/public/course_2.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
 							<div class="card-title" style="color:black"><a>Language Class</a></div>
 							<div class="card-text">Bahasa Arab & Inggris</div>
@@ -239,10 +239,10 @@
 					</div>
 				</div>
 
-				<!-- Popular Course Item -->
-				{{-- <div class="col-lg-4 course_box">
+				<!-- Popular public/course Item -->
+				{{-- <div class="col-lg-4 public/course_box">
 					<div class="card">
-						<img class="card-img-top" src="{{ URL::asset('course')}}/images/course_3.jpg" alt="https://unsplash.com/@kellybrito">
+						<img class="card-img-top" src="{{ URL::asset('public/course')}}/images/public/course_3.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
 							<div class="card-title" style="color:black"><a>Science Class</a></div>
 							<div class="card-text">Kalimat Tambahan</div>
@@ -252,10 +252,10 @@
 					</div>
 				</div> --}}
 
-				<!-- Popular Course Item -->
-				{{-- <div class="col-lg-4 course_box">
+				<!-- Popular public/course Item -->
+				{{-- <div class="col-lg-4 public/course_box">
 					<div class="card">
-						<img class="card-img-top" src="{{ URL::asset('course')}}/images/course_3.jpg" alt="https://unsplash.com/@kellybrito">
+						<img class="card-img-top" src="{{ URL::asset('public/course')}}/images/public/course_3.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
 							<div class="card-title" style="color:black"><a>Humaniora Class</a></div>
 							<div class="card-text">Kalimat Tambahan</div>
@@ -265,10 +265,10 @@
 					</div>
 				</div> --}}
 
-				<!-- Popular Course Item -->
-				{{-- <div class="col-lg-4 course_box">
+				<!-- Popular public/course Item -->
+				{{-- <div class="col-lg-4 public/course_box">
 					<div class="card">
-						<img class="card-img-top" src="{{ URL::asset('course')}}/images/course_2.jpg" alt="https://unsplash.com/@kellybrito">
+						<img class="card-img-top" src="{{ URL::asset('public/course')}}/images/public/course_2.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
 							<div class="card-title" style="color:black"><a>Pengembangan Potensi</a></div>
 							<div class="card-text">Pendalaman Karakter dan Bakat Anak Sejak Dini</div>
@@ -278,20 +278,20 @@
 					</div>
 				</div> --}}
 
-				<!-- Popular Course Item -->
-				{{-- <div class="col-lg-4 course_box">
+				<!-- Popular public/course Item -->
+				{{-- <div class="col-lg-4 public/course_box">
 					<div class="card">
-						<img class="card-img-top" src="{{ URL::asset('course')}}/images/course_2.jpg" alt="https://unsplash.com/@cikstefan">
+						<img class="card-img-top" src="{{ URL::asset('public/course')}}/images/public/course_2.jpg" alt="https://unsplash.com/@cikstefan">
 						<div class="card-body text-center">
 							<div class="card-title"><a>Beginners guide to HTML</a></div>
 							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
-							<div class="course_author_image">
-								<img src="{{ URL::asset('course')}}/images/author.jpg" alt="https://unsplash.com/@mehdizadeh">
+							<div class="public/course_author_image">
+								<img src="{{ URL::asset('public/course')}}/images/author.jpg" alt="https://unsplash.com/@mehdizadeh">
 							</div>
-							<div class="course_author_name">Michael Smith, <span>Author</span></div>
-							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>$29</span></div>
+							<div class="public/course_author_name">Michael Smith, <span>Author</span></div>
+							<div class="public/course_price d-flex flex-column align-items-center justify-content-center"><span>$29</span></div>
 						</div>
 					</div>
 				</div> --}}
@@ -312,7 +312,7 @@
 	<div class="testimonials page_section">
 		<!-- <div class="testimonials_background" style="background-image:url(images/testimonials_background.jpg)"></div> -->
 		<div class="testimonials_background_container prlx_parent">
-			<div class="testimonials_background prlx" style="background-image:url({{ URL::asset('course')}}/images/testimonials_background.jpg)"></div>
+			<div class="testimonials_background prlx" style="background-image:url({{ URL::asset('public/course')}}/images/testimonials_background.jpg)"></div>
 		</div>
 		<div class="container">
 
@@ -354,7 +354,7 @@
 
 				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
 					<div class="icon_container d-flex flex-column justify-content-end">
-						<img src="{{ URL::asset('course')}}/images/earth-globe.svg" alt="">
+						<img src="{{ URL::asset('public/course')}}/images/earth-globe.svg" alt="">
 					</div>
 					<h3>Tangguh dan Mandiri</h3>
 					<p>Kami akan bla bla bla</p>
@@ -362,7 +362,7 @@
 
 				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
 					<div class="icon_container d-flex flex-column justify-content-end">
-						<img src="{{ URL::asset('course')}}/images/exam.svg" alt="">
+						<img src="{{ URL::asset('public/course')}}/images/exam.svg" alt="">
 					</div>
 					<h3>Syukur</h3>
 					<p>Kami akan bla bla bla</p>
@@ -370,7 +370,7 @@
 
 				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
 					<div class="icon_container d-flex flex-column justify-content-end">
-						<img src="{{ URL::asset('course')}}/images/books.svg" alt="">
+						<img src="{{ URL::asset('public/course')}}/images/books.svg" alt="">
 					</div>
 					<h3>Amanah</h3>
 					<p>Kami akan bla bla bla</p>
@@ -378,7 +378,7 @@
 
 				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
 					<div class="icon_container d-flex flex-column justify-content-end">
-						<img src="{{ URL::asset('course')}}/images/professor.svg" alt="">
+						<img src="{{ URL::asset('public/course')}}/images/professor.svg" alt="">
 					</div>
 					<h3>Bermanfaat</h3>
 					<p>Kami akan bla bla bla</p>
@@ -386,7 +386,7 @@
 
 				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
 					<div class="icon_container d-flex flex-column justify-content-end">
-						<img src="{{ URL::asset('course')}}/images/blackboard.svg" alt="">
+						<img src="{{ URL::asset('public/course')}}/images/blackboard.svg" alt="">
 					</div>
 					<h3>Istiqomah</h3>
 					<p>Kami akan bla bla bla</p>
@@ -394,7 +394,7 @@
 
 				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
 					<div class="icon_container d-flex flex-column justify-content-end">
-						<img src="{{ URL::asset('course')}}/images/mortarboard.svg" alt="">
+						<img src="{{ URL::asset('public/course')}}/images/mortarboard.svg" alt="">
 					</div>
 					<h3>Tertib dan Disiplin</h3>
 					<p>Kami akan bla bla bla</p>
@@ -430,7 +430,7 @@
 					<!-- Search -->
 
 					<div class="search_section d-flex flex-column align-items-center justify-content-center">
-						<div class="search_background" style="background-image:url({{ URL::asset('course')}}/images/search_background.jpg);"></div>
+						<div class="search_background" style="background-image:url({{ URL::asset('public/course')}}/images/search_background.jpg);"></div>
 						<div class="search_content text-center">
 							<h1 class="search_title">Misi</h1>
 							
@@ -492,7 +492,7 @@
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="{{ URL::asset('course')}}/images/event_1.jpg" alt="https://unsplash.com/@theunsteady5">
+									<img src="{{ URL::asset('public/course')}}/images/event_1.jpg" alt="https://unsplash.com/@theunsteady5">
 								</div>
 							</div>
 
@@ -523,7 +523,7 @@
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="{{ URL::asset('course')}}/images/event_2.jpg" alt="https://unsplash.com/@claybanks1989">
+									<img src="{{ URL::asset('public/course')}}/images/event_2.jpg" alt="https://unsplash.com/@claybanks1989">
 								</div>
 							</div>
 
@@ -553,7 +553,7 @@
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="{{ URL::asset('course')}}/images/event_3.jpg" alt="https://unsplash.com/@juanmramosjr">
+									<img src="{{ URL::asset('public/course')}}/images/event_3.jpg" alt="https://unsplash.com/@juanmramosjr">
 								</div>
 							</div>
 
@@ -610,7 +610,7 @@
 							<ul>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="{{ URL::asset('course')}}/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									Jl. Merpati Kp. Sidojadi km 13, RT 3 / RW 9<br>
 									&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -618,13 +618,13 @@
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="{{ URL::asset('course')}}/images/phone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/phone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									0812-2812-5872
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="{{ URL::asset('course')}}/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="{{ URL::asset('public/course')}}/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>yayasanmuhammadalfatih@gmail.com
 								</li>
 							</ul>
@@ -657,18 +657,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 </div>
 
-<script src="{{ URL::asset('course')}}/js/jquery-3.2.1.min.js"></script>
-<script src="{{ URL::asset('course')}}/styles/bootstrap4/popper.js"></script>
-<script src="{{ URL::asset('course')}}/styles/bootstrap4/bootstrap.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/greensock/TweenMax.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/greensock/TimelineMax.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/greensock/animation.gsap.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="{{ URL::asset('course')}}/plugins/easing/easing.js"></script>
-<script src="{{ URL::asset('course')}}/js/custom.js"></script>
+<script src="{{ URL::asset('public/course')}}/js/jquery-3.2.1.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/styles/bootstrap4/popper.js"></script>
+<script src="{{ URL::asset('public/course')}}/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/greensock/TweenMax.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/greensock/TimelineMax.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/greensock/animation.gsap.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="{{ URL::asset('public/course')}}/plugins/easing/easing.js"></script>
+<script src="{{ URL::asset('public/course')}}/js/custom.js"></script>
 
 </body>
 </html>
