@@ -19,14 +19,16 @@ Home Page
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
-              <h3>150.000.000</h3>
+              <h3>
+                  {{number_format($expense[0],0,",",".")}}
+              </h3>
 
               <p>Pengeluaran bulan ini</p>
             </div>
             <div class="icon">
               <i class="ion ion-bag"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{url('dashboard/expense')}}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -34,14 +36,16 @@ Home Page
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>54.000.000</h3>
+              <h3>
+                  {{number_format($income[0],0,",",".")}}
+              </h3>
 
               <p>Pemasukan bulan ini</p>
             </div>
             <div class="icon">
               <i class="ion ion-archive"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{url('dashboard/income')}}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->

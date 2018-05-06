@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Crypt;
 use Auth;
-use App\User;
+use App\Income;
 
 class IncomeController extends Controller
 {
@@ -22,16 +22,21 @@ class IncomeController extends Controller
 	}
 
     public function index(){
+        $incomes = DB::table('incomes')
+                    ->select('incomes.id','incomes.name','amount','remarks','users.name as created_by', 'incomes.created_at','type_id')
+                    ->join('users','users.id','=','incomes.created_by')
+                    ->orderBy('incomes.id');
+
+        if (!empty($_GET['type'])) {
+            $incomes = $incomes->where('type_id', $_GET['type']); 
+        }
         
-        
-        return view('income.index');
+        $data['incomes'] = $incomes->paginate(10);
+        return view('income.index', $data);
     }
 
     public function add(){
-
-        $roles = DB::table('roles')->get();
-        $data['roles'] = $roles;
-        return view('users.add', $data);
+        return view('income.add');
     }
 
     public function edit($id){
@@ -41,15 +46,16 @@ class IncomeController extends Controller
     }
 
     public function save(Request $request){
-        $user = new User;
-        $user->phone = $request->get('phone');
-        $user->email = $request->get('email');
+        $user = new Income;
         $user->name = $request->get('name');
-        $user->password = Crypt::encrypt('123456');
-        $user->role_id = $request->get('role');
+        $user->amount = $request->get('amount');
+        $user->remarks = $request->get('remarks');
+        $user->type_id = $request->get('type');
+        $user->created_by = Auth::user()->id;
+        
         $user->save(); 
 
-        return redirect('dashboard/users')->with('status', 'User berhasil ditambahkan');
+        return redirect('dashboard/income')->with('status', 'Pemasukan berhasil ditambahkan');
     }
 
     public function update(Request $request){

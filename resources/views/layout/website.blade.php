@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>public/course</title>
-<title>HappyDeliv - Empower Your Delivery Service</title>
+
+<title>SD Karakter Al-Fatiih</title>
     
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">

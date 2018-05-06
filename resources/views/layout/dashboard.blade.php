@@ -117,7 +117,7 @@
 			          <li class="dropdown user user-menu">
 			            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 			              <img src="{{URL::to('/public')}}/images/user-dummy.png" class="user-image" alt="User Image">
-			              <span class="hidden-xs">Admin</span>
+			              <span class="hidden-xs">{{Auth::user()->name}}</span>
 			            </a>
 			            <ul class="dropdown-menu">
 			              <!-- User image -->
@@ -125,8 +125,8 @@
 			                <img src="{{URL::to('/public')}}/images/user-dummy.png" class="img-circle" alt="User Image">
 
 			                <p>
-			                  Admin
-			                  <small>Role Name</small>
+			                  {{Auth::user()->name}}
+			                  <small>{{session('role_name')}}</small>
 			                </p>
 			              </li>
 			              <!-- Menu Body -->
@@ -170,7 +170,10 @@
 							<a href="#"><i class="fa fa-circle text-success"></i> Online</a>
 						</div> <!-- /info -->
 					</div> <!-- /user-panel --> --}}
-			        @include('layout.sidebar_executive')
+
+					@if(in_array(Auth::user()->role_id , [4,7]))
+			        	@include('layout.sidebar_executive')
+			        @endif
 			        @include('layout.sidebar_finance')
 			        @include('layout.sidebar_admin')
 			        @include('layout.sidebar_psb')

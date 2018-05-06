@@ -62,6 +62,7 @@ class UserController extends Controller
         $user->name = $request->get('name');
         $user->password = Crypt::encrypt('123456');
         $user->role_id = $request->get('role');
+        $user->is_deleted = 0;
         $user->save(); 
 
         return redirect('dashboard/users')->with('status', 'User berhasil ditambahkan');

@@ -23,7 +23,7 @@ Route::get('/staff', 'WebsiteController@teachers');
 // alias in route login should be defined, so auth middleware could detect which login page user should be redirected when not logged in but trying to force dashboard
 Route::get('/login',  [ 'as' => 'login', 'uses' => 'WebsiteController@login_page']);
 Route::post('/login', 'WebsiteController@login_handle');
-Route::get('/logout', 'Dashboard\DashboardController@logout');
+Route::get('/logout', 'GeneralController@logout');
 
 Route::get('/dashboard',  'DashboardController@home');
 
@@ -34,12 +34,20 @@ Route::get('/dashboard/users/edit/{id}',  'UserController@edit');
 Route::post('/dashboard/users/update',  'UserController@update');
 Route::get('/dashboard/users/delete/{id}',  'UserController@delete');
 
-Route::get('/dashboard/expense',  'ExpenseController@index');
 Route::get('/dashboard/income',  'IncomeController@index');
+Route::get('/dashboard/income/add',  'IncomeController@add');
+Route::post('/dashboard/income/save',  'IncomeController@save');
+Route::get('/dashboard/income/edit/{id}',  'IncomeController@edit');
+Route::post('/dashboard/income/update',  'IncomeController@update');
 
-Route::get('/logout', 'GeneralController@logout');
+Route::get('/dashboard/expense',  'ExpenseController@index');
+Route::get('/dashboard/expense/add',  'ExpenseController@add');
+Route::post('/dashboard/expense/save',  'ExpenseController@save');
+Route::get('/dashboard/expense/approve/{id}',  'ExpenseController@approve');
+Route::get('/dashboard/expense/reject/{id}',  'ExpenseController@reject');
 
-Route::get('/dashboard/executive',  'DashboardController@executive');
+Route::get('/dashboard/executive',  'ExecutiveController@index');
+
 Route::get('/student',  'DashboardController@student');
 
 #Auth
