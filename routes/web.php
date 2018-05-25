@@ -46,6 +46,10 @@ Route::post('/dashboard/expense/save',  'ExpenseController@save');
 Route::get('/dashboard/expense/approve/{id}',  'ExpenseController@approve');
 Route::get('/dashboard/expense/reject/{id}',  'ExpenseController@reject');
 
+Route::get('/dashboard/file_school',  'FileController@index');
+Route::get('/dashboard/file_school/new',  'FileController@new');
+Route::post('/dashboard/file_school/save',  'FileController@save');
+
 Route::get('/dashboard/executive',  'ExecutiveController@index');
 
 Route::get('/student',  'DashboardController@student');

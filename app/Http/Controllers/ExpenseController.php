@@ -10,7 +10,7 @@ use App\Expense;
 class ExpenseController extends Controller
 {
 	public function __construct(){
-	   $this->middleware(function ($request, $next) {
+	    $this->middleware(function ($request, $next) {
             $role_id = Auth::user()->role_id;
             
             if (!in_array($role_id, [1,2,3,4])) {
